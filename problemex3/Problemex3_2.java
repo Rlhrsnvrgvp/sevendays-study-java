@@ -4,8 +4,8 @@ public class Problemex3_2 {
  
     public static void main(String[] args) {
         Computer[] cp = new Computer[3];
-        cp[0] = new PersonalComputer();     //  ¥Ñ©`¥½¥Ê¥ë¥³¥ó¥Ô¥å©`¥¿
-        cp[1] = new TabletPC();             //  ¥¿¥Ö¥ì¥Ã¥ÈPC
+        cp[0] = new PersonalComputer();     //  ãƒ‘ãƒ¼ã‚½ãƒŠãƒ«ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿
+        cp[1] = new TabletPC();             //  ã‚¿ãƒ–ãƒ¬ãƒƒãƒˆPC
         cp[2] = new SmartPhone();           //
         for(Computer c:cp){
             c.showType();
