@@ -2,10 +2,10 @@ package problemex2;
 
 public class Fighter {
 	void fly() {
-		System.out.println("ïwĞĞ¤¹¤ë");
+		System.out.println("é£›è¡Œã™ã‚‹");
 	}
 	
 	void fight() {
-		System.out.println("‘éêL¤¹¤ë");
+		System.out.println("æˆ¦é—˜ã™ã‚‹");
 	}
 }
