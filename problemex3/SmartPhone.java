@@ -3,17 +3,17 @@ package problemex3;
 public class SmartPhone extends Computer {
 
 	public SmartPhone() {
-		super("¥¿¥Ö¥ì¥Ã¥ÈPC");
+		super("ã‚¿ãƒ–ãƒ¬ãƒƒãƒˆPC");
 	}
 	
 	public void input() {
-		System.out.println("¥¿¥Ã¥Á¥Ñ¥Í¥ë¥Ç¥£¥¹¥×¥ì¥¤¤ò¥¿¥Ã¥×¤·¤Æ²Ù×÷");
+		System.out.println("ã‚¿ãƒƒãƒãƒ‘ãƒãƒ«ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤ã‚’ã‚¿ãƒƒãƒ—ã—ã¦æ“ä½œ");
 	}
 	
 	public void output() {
-		System.out.println("¥¿¥Ã¥Á¥Ñ¥Í¥ë¥Ç¥£¥¹¥×¥ì¥¤¤Ë³öÁ¦");
+		System.out.println("ã‚¿ãƒƒãƒãƒ‘ãƒãƒ«ãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤ã«å‡ºåŠ›");
 	}
     public void communication(){
-        System.out.println("¥¤¥ó¥¿©`¥Í¥Ã¥È¤ÈëŠÔ’»Ø¾€¤ÇÍ¨ĞÅ");
+        System.out.println("ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã¨é›»è©±å›ç·šã§é€šä¿¡");
     }
 }
