@@ -1,21 +1,21 @@
 package problemex4;
  
-//  ¥¢¥é©`¥à¤Ä¤­•rÓ‹¥¯¥é¥¹
+//  ã‚¢ãƒ©ãƒ¼ãƒ ã¤ãæ™‚è¨ˆã‚¯ãƒ©ã‚¹
 public class AlarmClock implements IClock,IAlarm{
     public void alarm(){
-        System.out.println("¥¢¥é©`¥à¤òøQ¤é¤¹");
+        System.out.println("ã‚¢ãƒ©ãƒ¼ãƒ ã‚’é³´ã‚‰ã™");
     }
     public void setAlarm(){
-        System.out.println("¥¢¥é©`¥à¤ò¥»¥Ã¥È¤¹¤ë");
+        System.out.println("ã‚¢ãƒ©ãƒ¼ãƒ ã‚’ã‚»ãƒƒãƒˆã™ã‚‹");
     }
     public void stopAlarm(){
-        System.out.println("¥¢¥é©`¥à¤òÖ¹¤á¤ë");
+        System.out.println("ã‚¢ãƒ©ãƒ¼ãƒ ã‚’æ­¢ã‚ã‚‹");
     }
     public void showTime(){
-        System.out.println("•r¿Ì¤òÖª¤ë");
+        System.out.println("æ™‚åˆ»ã‚’çŸ¥ã‚‹");
     }
     public void adjustTime(){
-        System.out.println("•r¿Ì¤òĞŞÕı¤¹¤ë");
+        System.out.println("æ™‚åˆ»ã‚’ä¿®æ­£ã™ã‚‹");
     }
  
 }
