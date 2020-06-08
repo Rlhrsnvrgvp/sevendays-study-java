@@ -1,0 +1,11 @@
+package problemex2;
+
+public class Fighter {
+	void fly() {
+		System.out.println("Ôw––§π§Î");
+	}
+	
+	void fight() {
+		System.out.println("ëÈÍL§π§Î");
+	}
+}
